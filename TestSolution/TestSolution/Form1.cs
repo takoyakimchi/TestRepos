@@ -24,7 +24,7 @@ namespace TestSolution
             return a - b;
         }
         
-        private int add(int a, int b)
+        private int add1(int a, int b)
         {
             return a + b;
         }
@@ -42,6 +42,11 @@ namespace TestSolution
         private void showErrorMsg()
         {
             MessageBox.Show("Error1!");
+        }
+
+        private void func()
+        {
+            return;
         }
     }
 }
