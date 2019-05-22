@@ -18,6 +18,11 @@ namespace TestSolution
         {
             InitializeComponent();
         }
+
+        private int add(int a, int b)
+        {
+            return a + b;
+        }
     }
 }
 // hello

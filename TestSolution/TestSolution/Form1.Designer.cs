@@ -28,46 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lbl_name = new System.Windows.Forms.Label();
-            this.lbl_Lim = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // lbl_name
-            // 
-            this.lbl_name.AutoSize = true;
-            this.lbl_name.Location = new System.Drawing.Point(663, 385);
-            this.lbl_name.Name = "lbl_name";
-            this.lbl_name.Size = new System.Drawing.Size(41, 12);
-            this.lbl_name.TabIndex = 0;
-            this.lbl_name.Text = "이충렬";
-            // 
-            // lbl_Lim
-            // 
-            this.lbl_Lim.AutoSize = true;
-            this.lbl_Lim.Location = new System.Drawing.Point(665, 284);
-            this.lbl_Lim.Name = "lbl_Lim";
-            this.lbl_Lim.Size = new System.Drawing.Size(41, 12);
-            this.lbl_Lim.TabIndex = 1;
-            this.lbl_Lim.Text = "임정상";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lbl_Lim);
-            this.Controls.Add(this.lbl_name);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lbl_name;
-        private System.Windows.Forms.Label lbl_Lim;
     }
 }
 
