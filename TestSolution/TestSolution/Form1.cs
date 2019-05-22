@@ -38,6 +38,11 @@ namespace TestSolution
         {
             return a / b;
         }
+
+        private void func()
+        {
+            return;
+        }
     }
 }
 // hello
