@@ -28,6 +28,11 @@ namespace TestSolution
         {
             return a + b;
         }
+
+        private int multiply(int a, int b)
+        {
+            return a * b;
+        }
     }
 }
 // hello
