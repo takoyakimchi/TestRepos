@@ -33,6 +33,11 @@ namespace TestSolution
         {
             return a * b;
         }
+
+        private int div(int a, int b)
+        {
+            return a / b;
+        }
     }
 }
 // hello
