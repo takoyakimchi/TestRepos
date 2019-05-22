@@ -23,6 +23,11 @@ namespace TestSolution
         {
             return a - b;
         }
+        
+        private int add(int a, int b)
+        {
+            return a + b;
+        }
     }
 }
 // hello
